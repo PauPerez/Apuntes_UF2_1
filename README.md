@@ -54,4 +54,12 @@
 - **Automatización de pruebas**
     - Frameworks de pruebas.
         - Java: JUnit, TestNG
+        - C++: CppUnit, Google Test
+        - PHP: PHPUnit
+        - Javascript: Mocha
     - Aserciones.
+---
+- **TDD**
+- Desarrollo guiado por pruebas de software(Test-Driven Development)
+    - ****TFD****: Escribir las pruebas primero.
+    -
