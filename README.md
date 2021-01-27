@@ -41,3 +41,17 @@
     - Pruebas de compatibilidad.
     - Pruebas de portabilidad.
 ---
+- **Mecanismos de prueba**
+- Manual:
+    - Realizada por una persona cualificada.
+- Automático:
+    - Mediante software que compara los resultados de ejecución con los esperados de manera automática.
+---
+- **Soporte del depurador**
+    - Puntos de ruptura.
+    - Ejecución paso a paso.
+    - Análisis de variables.
+- **Automatización de pruebas**
+    - Frameworks de pruebas.
+        - Java: JUnit, TestNG
+    - Aserciones.
