@@ -41,7 +41,7 @@
     - Pruebas de compatibilidad.
     - Pruebas de portabilidad.
 ---
-- **Mecanismos de prueba**
+### Mecanismos de prueba
 - Manual:
     - Realizada por una persona cualificada.
 - Automático:
@@ -59,7 +59,46 @@
         - Javascript: Mocha
     - Aserciones.
 ---
-- **TDD**
+### TDD
 - Desarrollo guiado por pruebas de software(Test-Driven Development)
-    - ****TFD****: Escribir las pruebas primero.
-    -
+    - **TFD**: Escribir las pruebas primero.
+    - **Refactoring**: Refactorización.
+---
+### Integración
+- **Formas de integración**:
+    - Integración Big bang
+    - Integración Descendente
+    - Integración Ascendente
+    - Integración Continua (CI)
+- **Servidores de integración continua**:
+    - CI : Integración continua
+    - CD : Entrega continua
+        - Jenkins: Software escrito en java de còdigo abierto sacada en 2005.
+        - Bamboo: Funciona a través de la interfaz web, escrito en java, sacado en 2007.
+        - TravisCI: Bastante unido a GitHub, se configura facilmente con un archivo YAML, codigo abierto.
+---
+# Cobertura del código
+- Porcentaje de código ejecutado durante las pruebas.
+- resultado deseado lo más proximo al 100%.
+- Si es del 100%, se ejecutó todo el código en la prueba.
+- Si es menor es que hay código que no se esta usando en el programa.
+- Se puede hacer cobertura desde el IDE o un servicio web apropiado.
+---
+# Factores de calidad
+- **Operación del producto**
+    - Corrección: Propiedad del software de arreglar osibles errores.
+    - Fiabilidad: Capacidad del software de funcionar bien.
+    - Eficiencia: que haga su tarea de la mejor manera posible y con el mínimo de pèrdidas.
+    - Seguridad: Que proteja al usuario y al propio programa de posibles males.
+    - Facilidad de uso: La facilidad de un usuario nuevo en aprender a usar el programa
+    - correctamente.
+- **Revisión del producto**
+    - Mantenibilidad: Que se puedan hacer mantenimientos periòdicos.
+    - Flexibilidad: que se pueda adaptar a errores comunes e incluso solucionarlos.
+    - Facilidad de prueba: que sea facil de poner a prueba su funcionamiento bajo ciertas
+    - circumstancias.
+- **Transición del producto**
+    - Portabilidad: que se pueda almacenar en unidades portables(USB, CD...)
+    - Reusabilidad: Si un usuario usa el programa, si viene otro usuario luego se pueda
+    - volver a usar(Como un instalador por ejemplo).
+    - Interoperatividad: Lo bien que funcionan sus enlaces internos de còdigo.
